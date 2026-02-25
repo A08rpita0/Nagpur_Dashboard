@@ -1,243 +1,170 @@
 # 🏙 Nagpur Property Intelligence Dashboard
 
-A high-end **Real Estate Analytics & Investment Intelligence Platform** built using Streamlit.
-
-This project analyzes land/plot price trends in Nagpur and transforms raw growth data into:
-
-- Investment signals
-- Risk scoring
-- Predictive growth modeling
-- Segment-based insights
-- Interactive visual intelligence dashboards
+A dark-themed, futuristic real estate analytics dashboard built with **Streamlit** — tracking land/plot price trends across Nagpur localities with ML-powered growth predictions and investment signals.
 
 ---
 
-# 🚀 Project Overview
+## 📸 Features
 
-Nagpur Property Intelligence is a fully interactive analytics dashboard that:
-
-- Compares 1-Year and 3-Year growth trends
-- Identifies top-performing and underperforming localities
-- Segments properties into Affordable / Mid-Range / Premium
-- Predicts next-year price growth using Linear Regression
-- Generates investment recommendations using a multi-tier logic engine
-- Evaluates volatility-based risk
-- Provides a professional futuristic UI experience
-
----
-
-# 📊 Core Analytics Features
-
-### 1️⃣ Locality-Wise Growth Comparison
-- Horizontal gradient growth visualization
-- Sorted by selected growth window (1Y or 3Y)
-
-### 2️⃣ Top 5 Fastest Growing vs Lowest Performing
-- Dual-panel comparative analysis
-- Integrated recommendation signals
-
-### 3️⃣ 1Y vs 3Y Growth Comparison
-- Grouped bar visualization
-- Heatmap for quick comparative analysis
-
-### 4️⃣ Price Segment Analysis
-- Auto-segmentation:
-  - Affordable
-  - Mid-Range
-  - Premium
-- Average growth per segment
-- Donut distribution chart
-- Predicted returns per segment
+| Section | Description |
+|---|---|
+| 📊 Locality-wise Growth Comparison | Horizontal bar chart of price growth per locality |
+| 🏆 Top 5 / Lowest Performing | Side-by-side winners vs laggards with data tables |
+| 📈 1Y vs 3Y Comparison | Grouped bars + heatmap across growth periods |
+| 🏷 Price Segment Analysis | Affordable / Mid-Range / Premium breakdown |
+| 🔮 Prediction Model | Linear Regression predicting next-year growth |
+| 💡 Investment Recommendation | 5-tier signal engine (Strong Buy → Avoid) |
+| 🏅 Investment Leaderboard | Full ranked table with progress bar scoring |
+| ⚠ Risk Zones | Radar chart of high-volatility localities |
 
 ---
 
-# 🔮 Prediction Model
+## 🗂 Project Structure
 
-### Model Type:
-Linear Regression
+```
+nagpur-dashboard/
+├── app.py                       # Streamlit dashboard (main app)
+├── nagpur_cleaned_dataset.csv     # Final dataset used by app.py
+├── nagpur_dataset.csv           # Intermediate extracted dataset
+├── clean_data.py                # Data cleaning script (run locally)
+├── scrap.py                     # Data extraction script (run locally)
+├── nagpur_data.json             # Raw scraped JSON data
+├── requirements.txt             # Python dependencies
+└── README.md                    # This file
+```
 
-### Features Used:
-- 1-Year Growth
-- 3-Year Growth
+### Data Pipeline
 
-### Output:
-- Predicted Next-Year Growth %
-- R² model performance score
-- Model coefficients displayed in dashboard
+```
+nagpur_data.json
+      ↓  scrap.py          → extracts JSON into CSV
+nagpur_dataset.csv
+      ↓  clean_data.py     → cleans, calculates growth %
+nagpur_final_cleaned.csv
+      ↓  app.py            → Streamlit dashboard (deployed)
+```
+
+> **Note:** Only `app.py`, `nagpur_cleaned_dataset.csv`, and `requirements.txt` are needed at runtime. The other files are for data preparation only.
 
 ---
 
-# 💡 Investment Recommendation Logic
+## ⚙ Local Setup
 
-Multi-tier classification system based on:
+### 1. Clone the repository
 
-- Predicted growth
-- Volatility (risk)
+```bash
+git clone https://github.com/A08rpita0/Nagpur_Dashboard
+cd nagpur-dashboard
+```
 
-| Signal | Criteria |
-|--------|----------|
-| 🚀 Strong Buy | Predicted > 15% AND Low volatility |
-| 📈 High Growth / High Risk | Predicted > 15% AND High volatility |
+
+
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the dashboard
+
+```bash
+streamlit run app.py
+```
+
+The app will open at `http://localhost:8501` in your browser.
+
+---
+
+## 🔄 Regenerating the Dataset (Optional)
+
+If you want to re-run the full data pipeline from scratch:
+
+**Step 1 — Extract raw data**
+
+Run `scrap.py` to read `nagpur_data.json` and produce `nagpur_dataset.csv`.
+
+```bash
+python scrap.py
+```
+
+**Step 2 — Clean the data**
+
+```bash
+python clean_data.py
+```
+
+This produces `nagpur_cleaned_dataset.csv` which `app.py` reads.
+
+---
+
+## 📦 Requirements
+
+```
+streamlit
+pandas
+plotly
+scikit-learn
+numpy
+```
+
+Install with:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 Deployment (Streamlit Community Cloud)
+
+1. Push this repo to GitHub (must be **public**)
+2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub
+3. Click **New app** and fill in:
+   - **Repository:** `YOUR_USERNAME/nagpur-dashboard`
+   - **Branch:** `main`
+   - **Main file path:** `app.py`
+4. Click **Deploy**
+
+Your app will be live at:
+```
+https://nagpurdashboard.streamlit.app/
+```
+
+---
+
+## 🧠 How the Prediction Model Works
+
+- **Algorithm:** Linear Regression (`scikit-learn`)
+- **Features:** `growth_1y`, `growth_3y`
+- **Target:** Predicted next-year growth %
+- **Displayed:** R² score shown live in sidebar and KPI cards
+
+### Investment Signal Logic
+
+| Signal | Condition |
+|---|---|
+| 🚀 Strong Buy | Predicted > 15% AND volatility < 10 |
+| 📈 High Growth / High Risk | Predicted > 15% AND volatility ≥ 10 |
 | 📊 Moderate Buy | Predicted 5–15% |
 | ⏸ Hold | Predicted 0–5% |
-| ⚠ Avoid | Negative predicted growth |
+| ⚠ Avoid | Predicted < 0% |
 
 ---
 
-# ⚠ Risk Evaluation
+## 🛠 Tech Stack
 
-Volatility is computed as:
-
-Standard Deviation of (growth_1y, growth_3y)
-
-High volatility areas are:
-
-- Highlighted in dashboard
-- Visualized using radar charts
-- Included in risk leaderboard
+| Tool | Purpose |
+|---|---|
+| [Streamlit](https://streamlit.io) | Dashboard framework |
+| [Plotly](https://plotly.com) | Interactive charts |
+| [Pandas](https://pandas.pydata.org) | Data manipulation |
+| [scikit-learn](https://scikit-learn.org) | ML prediction model |
+| [NumPy](https://numpy.org) | Numerical computations |
 
 ---
 
-# 🧠 Advanced Features
+## 👩‍💻 Author
 
-### 🔄 Scheduled Auto-Refresh
-- Automatically refreshes every 60 minutes
-- Clears cache before rerun
-
-### ⚡ Caching Strategy
-- Uses `@st.cache_data(ttl=3600)`
-- Optimized performance with controlled TTL
-
-### 📊 Risk vs Reward Scatter
-- Bubble size based on investment score
-- Quadrant lines divide risk-reward zones
-
-### 🏅 Investment Leaderboard
-- Ranked by weighted investment score
-- Progress bar visualization
-- Includes volatility and predicted returns
-
-### 🎨 Custom Futuristic UI
-- Dark cyber-style theme
-- Custom CSS styling
-- Custom KPI cards
-- Advanced layout styling
-- Sidebar intelligence panel
-
----
-
-# 📁 Project Structure
-
-Nagpur_Dashboard/
-│
-├── app.py                      # Complete analytics dashboard
-├── nagpur_cleaned_dataset.csv  # Input dataset
-├── requirements.txt            # Python dependencies
-└── README.md                   # Documentation
-
----
-
-# 🛠 Technology Stack
-
-- Python
-- Streamlit
-- Pandas
-- Plotly (Graph Objects + Express)
-- NumPy
-- Scikit-learn
-
----
-
-# 📦 Requirements
-
-requirements.txt:
-
-streamlit  
-pandas  
-plotly  
-numpy  
-scikit-learn  
-
----
-
-# 🚀 Run Locally
-
-## 1. Clone Repository
-
-git clone https://github.com/A08rpita0/Nagpur_Dashboard.git  
-cd Nagpur_Dashboard  
-
-## 2. Install Dependencies
-
-pip install -r requirements.txt  
-
-## 3. Run Dashboard
-
-streamlit run app.py  
-
-Open in browser:
-
-http://localhost:8501  
-
----
-
-# 🌐 Deployment
-
-Deploy easily on Streamlit Cloud:
-
-1. Push repository to GitHub
-2. Go to https://share.streamlit.io
-3. Select repository
-4. Set main file as app.py
-5. Click Deploy
-
----
-
-# 📈 Model Transparency
-
-The dashboard displays:
-
-- R² score
-- Regression coefficients
-- Intercept value
-- Real vs predicted scatter
-
-This ensures transparency and interpretability of the prediction model.
-
----
-
-# 🎯 Key Highlights
-
-✔ End-to-end analytics pipeline  
-✔ Financial growth computation  
-✔ Predictive modeling  
-✔ Investment signal engine  
-✔ Volatility-based risk scoring  
-✔ Interactive multi-layer visualizations  
-✔ Automated refresh & caching  
-✔ Cloud deployment ready  
-
----
-
-
-
-# ⭐ Conclusion
-
-This project demonstrates:
-
-- Advanced data analysis
-- Predictive modeling
-- Risk-based financial evaluation
-- Full-stack dashboard engineering
-- Production-ready deployment
-
-It transforms raw property growth data into actionable real estate intelligence.
-
----
-
-
-## 🌐 Live Demo
-
-You can access the deployed dashboard here:
-
-🔗 https://nagpurdashboard.streamlit.app/
+**Arpita Khobragade**  
+Turning raw data into real estate intelligence 🏙
