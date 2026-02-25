@@ -1,0 +1,1836 @@
+{
+    "subTitle": "You can choose maximum 3 localities",
+    "title": "Select Localities to compare",
+    "tuples": [
+        {
+            "identifier": "AFFORDABLE_SEGMENT",
+            "colorCode": "#D2EE97",
+            "title": "Affordable",
+            "tuples": [
+                {
+                    "id": "7235_LOCALITY",
+                    "localityName": "Wardha Road",
+                    "localityId": "7235_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "84.0% YoY",
+                    "pricePerSqFt": "₹2,300/ sq.ft",
+                    "rating": 4.3,
+                    "longLat": {
+                        "x": 79.0729125899742,
+                        "y": 21.120169836598198,
+                        "type": "Point",
+                        "coordinates": [
+                            79.0729125899742,
+                            21.120169836598198
+                        ]
+                    },
+                    "apiLocationId": "1038531",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7235",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7235_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/wardha-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Wardha Road",
+                    "propYearWisePrice": {
+                        "1": 4800.0,
+                        "3": 2300.0,
+                        "4": 4650.0
+                    }
+                },
+                {
+                    "id": "11077_LOCALITY",
+                    "localityName": "Mihan",
+                    "localityId": "11077_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "92.0% YoY",
+                    "pricePerSqFt": "₹2,400/ sq.ft",
+                    "rating": 3.8,
+                    "longLat": {
+                        "x": 79.030981,
+                        "y": 21.059992,
+                        "type": "Point",
+                        "coordinates": [
+                            79.030981,
+                            21.059992
+                        ]
+                    },
+                    "apiLocationId": "1129589",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "11077",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "11077_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/mihan-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Mihan",
+                    "propYearWisePrice": {
+                        "1": 5000.0,
+                        "3": 2400.0
+                    }
+                },
+                {
+                    "id": "7244_LOCALITY",
+                    "localityName": "Buti Bori",
+                    "localityId": "7244_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "121.4% YoY",
+                    "pricePerSqFt": "₹1,550/ sq.ft",
+                    "rating": 3.9,
+                    "longLat": {
+                        "x": 79.00234,
+                        "y": 20.93362,
+                        "type": "Point",
+                        "coordinates": [
+                            79.00234,
+                            20.93362
+                        ]
+                    },
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7244",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7244_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/buti-bori-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Buti Bori",
+                    "propYearWisePrice": {
+                        "1": 2150.0,
+                        "3": 1550.0
+                    }
+                },
+                {
+                    "id": "7595_LOCALITY",
+                    "localityName": "Kamptee",
+                    "localityId": "7595_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹1,700/ sq.ft",
+                    "rating": 3.8,
+                    "longLat": {
+                        "x": 79.20277,
+                        "y": 21.21708,
+                        "type": "Point",
+                        "coordinates": [
+                            79.20277,
+                            21.21708
+                        ]
+                    },
+                    "apiLocationId": "1107770",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7595",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7595_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/kamptee-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Kamptee",
+                    "propYearWisePrice": {
+                        "3": 1700.0
+                    }
+                },
+                {
+                    "id": "8853_LOCALITY",
+                    "localityName": "Godhani",
+                    "localityId": "8853_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹2,500/ sq.ft",
+                    "longLat": {
+                        "x": 79.06048170001992,
+                        "y": 21.22073099350805,
+                        "type": "Point",
+                        "coordinates": [
+                            79.06048170001992,
+                            21.22073099350805
+                        ]
+                    },
+                    "apiLocationId": "1038664",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "8853",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "8853_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/godhani-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Godhani",
+                    "propYearWisePrice": {
+                        "3": 2500.0
+                    }
+                },
+                {
+                    "id": "7249_LOCALITY",
+                    "localityName": "Jamtha",
+                    "localityId": "7249_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "84.0% YoY",
+                    "pricePerSqFt": "₹2,300/ sq.ft",
+                    "longLat": {
+                        "x": 79.04756,
+                        "y": 21.00712,
+                        "type": "Point",
+                        "coordinates": [
+                            79.04756,
+                            21.00712
+                        ]
+                    },
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7249",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7249_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/jamtha-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Jamtha",
+                    "propYearWisePrice": {
+                        "1": 3350.0,
+                        "3": 2300.0
+                    }
+                },
+                {
+                    "id": "8857_LOCALITY",
+                    "localityName": "Godhani Road",
+                    "localityId": "8857_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "11.1% YoY",
+                    "pricePerSqFt": "₹2,500/ sq.ft",
+                    "rating": 3.5,
+                    "longLat": {
+                        "x": 79.065379,
+                        "y": 21.207939,
+                        "type": "Point",
+                        "coordinates": [
+                            79.065379,
+                            21.207939
+                        ]
+                    },
+                    "apiLocationId": "1040208",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "8857",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "8857_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/godhani-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Godhani Road",
+                    "propYearWisePrice": {
+                        "3": 2500.0
+                    }
+                }
+            ]
+        },
+        {
+            "identifier": "MID_SEGMENT",
+            "colorCode": "#F7EC9A",
+            "title": "Mid-Segment",
+            "tuples": [
+                {
+                    "id": "7733_LOCALITY",
+                    "localityName": "Mankapur",
+                    "localityId": "7733_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "44.4% YoY",
+                    "pricePerSqFt": "₹4,550/ sq.ft",
+                    "rating": 4.0,
+                    "longLat": {
+                        "x": 79.08046,
+                        "y": 21.18558,
+                        "type": "Point",
+                        "coordinates": [
+                            79.08046,
+                            21.18558
+                        ]
+                    },
+                    "apiLocationId": "1039054",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7733",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7733_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/mankapur-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Mankapur",
+                    "propYearWisePrice": {
+                        "1": 4550.0
+                    }
+                },
+                {
+                    "id": "7237_LOCALITY",
+                    "localityName": "Umred Road",
+                    "localityId": "7237_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "35.5% YoY",
+                    "pricePerSqFt": "₹4,200/ sq.ft",
+                    "rating": 4.0,
+                    "longLat": {
+                        "x": 79.17125,
+                        "y": 21.0352,
+                        "type": "Point",
+                        "coordinates": [
+                            79.17125,
+                            21.0352
+                        ]
+                    },
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7237",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7237_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/umred-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Umred Road",
+                    "propYearWisePrice": {
+                        "1": 4200.0,
+                        "3": 1900.0
+                    }
+                },
+                {
+                    "id": "7261_LOCALITY",
+                    "localityName": "Dighori",
+                    "localityId": "7261_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "33.3% YoY",
+                    "pricePerSqFt": "₹4,200/ sq.ft",
+                    "rating": 3.9,
+                    "longLat": {
+                        "x": 79.14074,
+                        "y": 21.11608,
+                        "type": "Point",
+                        "coordinates": [
+                            79.14074,
+                            21.11608
+                        ]
+                    },
+                    "apiLocationId": "1038623",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7261",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7261_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/dighori-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Dighori",
+                    "propYearWisePrice": {
+                        "1": 4200.0,
+                        "3": 2350.0
+                    }
+                },
+                {
+                    "id": "7236_LOCALITY",
+                    "localityName": "Besa",
+                    "localityId": "7236_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "31.3% YoY",
+                    "pricePerSqFt": "₹4,200/ sq.ft",
+                    "rating": 4.2,
+                    "longLat": {
+                        "x": 79.09134,
+                        "y": 21.09083,
+                        "type": "Point",
+                        "coordinates": [
+                            79.09134,
+                            21.09083
+                        ]
+                    },
+                    "apiLocationId": "1043165",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7236",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7236_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/besa-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Besa",
+                    "propYearWisePrice": {
+                        "1": 4200.0,
+                        "3": 3650.0
+                    }
+                },
+                {
+                    "id": "10558_LOCALITY",
+                    "localityName": "Gorewada",
+                    "localityId": "10558_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "30.2% YoY",
+                    "pricePerSqFt": "₹4,100/ sq.ft",
+                    "rating": 3.5,
+                    "longLat": {
+                        "x": 79.060571,
+                        "y": 21.189414,
+                        "type": "Point",
+                        "coordinates": [
+                            79.060571,
+                            21.189414
+                        ]
+                    },
+                    "apiLocationId": "1043176",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "10558",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "10558_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/gorewada-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Gorewada",
+                    "propYearWisePrice": {
+                        "1": 4100.0,
+                        "3": 2150.0
+                    }
+                },
+                {
+                    "id": "9594_LOCALITY",
+                    "localityName": "Dabha",
+                    "localityId": "9594_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "30.0% YoY",
+                    "pricePerSqFt": "₹3,900/ sq.ft",
+                    "rating": 3.8,
+                    "longLat": {
+                        "x": 79.01308926138796,
+                        "y": 21.168826062347147,
+                        "type": "Point",
+                        "coordinates": [
+                            79.01308926138796,
+                            21.168826062347147
+                        ]
+                    },
+                    "apiLocationId": "1043896",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "9594",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "9594_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/dabha-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Dabha",
+                    "propYearWisePrice": {
+                        "1": 3900.0,
+                        "3": 3300.0
+                    }
+                },
+                {
+                    "id": "35177_LOCALITY",
+                    "localityName": "Beltarodi",
+                    "localityId": "35177_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "29.7% YoY",
+                    "pricePerSqFt": "₹4,150/ sq.ft",
+                    "rating": 3.8,
+                    "longLat": {
+                        "x": 79.076984,
+                        "y": 21.075268,
+                        "type": "Point",
+                        "coordinates": [
+                            79.076984,
+                            21.075268
+                        ]
+                    },
+                    "apiLocationId": "1129584",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "35177",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "35177_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/beltarodi-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Beltarodi",
+                    "propYearWisePrice": {
+                        "1": 4150.0,
+                        "3": 3800.0
+                    }
+                },
+                {
+                    "id": "45939_LOCALITY",
+                    "localityName": "New Manish Nagar",
+                    "localityId": "45939_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "26.8% YoY",
+                    "pricePerSqFt": "₹4,500/ sq.ft",
+                    "rating": 4.0,
+                    "longLat": {
+                        "x": 79.06716,
+                        "y": 21.085819,
+                        "type": "Point",
+                        "coordinates": [
+                            79.06716,
+                            21.085819
+                        ]
+                    },
+                    "apiLocationId": "1127114",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "45939",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "45939_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/new-manish-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "New Manish Nagar",
+                    "propYearWisePrice": {
+                        "1": 4500.0,
+                        "3": 6000.0
+                    }
+                },
+                {
+                    "id": "7242_LOCALITY",
+                    "localityName": "Manewada",
+                    "localityId": "7242_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "25.4% YoY",
+                    "pricePerSqFt": "₹4,200/ sq.ft",
+                    "rating": 4.2,
+                    "longLat": {
+                        "x": 79.10687,
+                        "y": 21.09625,
+                        "type": "Point",
+                        "coordinates": [
+                            79.10687,
+                            21.09625
+                        ]
+                    },
+                    "apiLocationId": "1038622",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7242",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7242_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/manewada-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Manewada",
+                    "propYearWisePrice": {
+                        "1": 4200.0,
+                        "3": 4350.0
+                    }
+                },
+                {
+                    "id": "7731_LOCALITY",
+                    "localityName": "Somalwada, Wardha Road",
+                    "localityId": "7731_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "23.7% YoY",
+                    "pricePerSqFt": "₹4,700/ sq.ft",
+                    "rating": 4.3,
+                    "longLat": {
+                        "x": 79.07439,
+                        "y": 21.09267,
+                        "type": "Point",
+                        "coordinates": [
+                            79.07439,
+                            21.09267
+                        ]
+                    },
+                    "apiLocationId": "1043141",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7731",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7731_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/somalwada-wardha-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Somalwada, Wardha Road",
+                    "propYearWisePrice": {
+                        "1": 4700.0,
+                        "3": 6500.0,
+                        "4": 4650.0
+                    }
+                },
+                {
+                    "id": "25163_LOCALITY",
+                    "localityName": "Chinchbhavan",
+                    "localityId": "25163_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "21.4% YoY",
+                    "pricePerSqFt": "₹4,250/ sq.ft",
+                    "longLat": {
+                        "x": 79.058708,
+                        "y": 21.067461,
+                        "type": "Point",
+                        "coordinates": [
+                            79.058708,
+                            21.067461
+                        ]
+                    },
+                    "apiLocationId": "1129588",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "25163",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "25163_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/chinchbhavan-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Chinchbhavan",
+                    "propYearWisePrice": {
+                        "1": 4250.0,
+                        "3": 3150.0
+                    }
+                },
+                {
+                    "id": "8855_LOCALITY",
+                    "localityName": "Zingabai Takli",
+                    "localityId": "8855_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "19.7% YoY",
+                    "pricePerSqFt": "₹3,650/ sq.ft",
+                    "rating": 4.1,
+                    "longLat": {
+                        "x": 79.06874,
+                        "y": 21.19525,
+                        "type": "Point",
+                        "coordinates": [
+                            79.06874,
+                            21.19525
+                        ]
+                    },
+                    "apiLocationId": "1040208",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "8855",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "8855_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/zingabai-takli-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Zingabai Takli",
+                    "propYearWisePrice": {
+                        "1": 3650.0,
+                        "3": 4000.0
+                    }
+                },
+                {
+                    "id": "7241_LOCALITY",
+                    "localityName": "Katol Road",
+                    "localityId": "7241_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "19.5% YoY",
+                    "pricePerSqFt": "₹4,600/ sq.ft",
+                    "rating": 4.1,
+                    "longLat": {
+                        "x": 79.06638,
+                        "y": 21.17113,
+                        "type": "Point",
+                        "coordinates": [
+                            79.06638,
+                            21.17113
+                        ]
+                    },
+                    "apiLocationId": "1038400",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7241",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7241_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/katol-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Katol Road",
+                    "propYearWisePrice": {
+                        "1": 4600.0,
+                        "3": 1650.0
+                    }
+                },
+                {
+                    "id": "7732_LOCALITY",
+                    "localityName": "Koradi Road",
+                    "localityId": "7732_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "17.5% YoY",
+                    "pricePerSqFt": "₹3,700/ sq.ft",
+                    "rating": 4.2,
+                    "longLat": {
+                        "x": 79.07763,
+                        "y": 21.20253,
+                        "type": "Point",
+                        "coordinates": [
+                            79.07763,
+                            21.20253
+                        ]
+                    },
+                    "apiLocationId": "1041418",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7732",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7732_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/koradi-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Koradi Road",
+                    "propYearWisePrice": {
+                        "1": 3700.0,
+                        "3": 2500.0
+                    }
+                },
+                {
+                    "id": "7243_LOCALITY",
+                    "localityName": "Hudkeshwar Road",
+                    "localityId": "7243_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "16.4% YoY",
+                    "pricePerSqFt": "₹3,550/ sq.ft",
+                    "rating": 4.2,
+                    "longLat": {
+                        "x": 79.12249,
+                        "y": 21.09716,
+                        "type": "Point",
+                        "coordinates": [
+                            79.12249,
+                            21.09716
+                        ]
+                    },
+                    "apiLocationId": "1127094",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7243",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7243_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/hudkeshwar-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Hudkeshwar Road",
+                    "propYearWisePrice": {
+                        "1": 3550.0,
+                        "3": 2050.0
+                    }
+                },
+                {
+                    "id": "7277_LOCALITY",
+                    "localityName": "Friends Colony",
+                    "localityId": "7277_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "16.3% YoY",
+                    "pricePerSqFt": "₹4,650/ sq.ft",
+                    "rating": 4.1,
+                    "longLat": {
+                        "x": 79.042896,
+                        "y": 21.173844,
+                        "type": "Point",
+                        "coordinates": [
+                            79.042896,
+                            21.173844
+                        ]
+                    },
+                    "apiLocationId": "1127922",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7277",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7277_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/friends-colony-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Friends Colony",
+                    "propYearWisePrice": {
+                        "1": 4650.0
+                    }
+                },
+                {
+                    "id": "7730_LOCALITY",
+                    "localityName": "Manish Nagar",
+                    "localityId": "7730_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "15.4% YoY",
+                    "pricePerSqFt": "₹4,500/ sq.ft",
+                    "rating": 4.4,
+                    "longLat": {
+                        "x": 79.07839,
+                        "y": 21.09115,
+                        "type": "Point",
+                        "coordinates": [
+                            79.07839,
+                            21.09115
+                        ]
+                    },
+                    "apiLocationId": "1043141",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7730",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7730_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/manish-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Manish Nagar",
+                    "propYearWisePrice": {
+                        "1": 4500.0,
+                        "3": 6000.0
+                    }
+                },
+                {
+                    "id": "7239_LOCALITY",
+                    "localityName": "Amravati Road",
+                    "localityId": "7239_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "14.3% YoY",
+                    "pricePerSqFt": "₹4,000/ sq.ft",
+                    "rating": 4.3,
+                    "longLat": {
+                        "x": 79.05011,
+                        "y": 21.14807,
+                        "type": "Point",
+                        "coordinates": [
+                            79.05011,
+                            21.14807
+                        ]
+                    },
+                    "apiLocationId": "1038634",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7239",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7239_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/amravati-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Amravati Road",
+                    "propYearWisePrice": {
+                        "1": 4000.0,
+                        "3": 2500.0
+                    }
+                },
+                {
+                    "id": "23285_LOCALITY",
+                    "localityName": "Shambhu Nagar",
+                    "localityId": "23285_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "10.9% YoY",
+                    "pricePerSqFt": "₹3,550/ sq.ft",
+                    "rating": 4.0,
+                    "longLat": {
+                        "x": 79.083954,
+                        "y": 21.201137,
+                        "type": "Point",
+                        "coordinates": [
+                            79.083954,
+                            21.201137
+                        ]
+                    },
+                    "apiLocationId": "1041418",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "23285",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "23285_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/shambhu-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Shambhu Nagar",
+                    "propYearWisePrice": {
+                        "1": 3550.0,
+                        "3": 3450.0
+                    }
+                },
+                {
+                    "id": "7264_LOCALITY",
+                    "localityName": "Kamptee Road",
+                    "localityId": "7264_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "9.4% YoY",
+                    "pricePerSqFt": "₹3,500/ sq.ft",
+                    "rating": 4.1,
+                    "longLat": {
+                        "x": 79.13827839260192,
+                        "y": 21.199328973168218,
+                        "type": "Point",
+                        "coordinates": [
+                            79.13827839260192,
+                            21.199328973168218
+                        ]
+                    },
+                    "apiLocationId": "1038688",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7264",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7264_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/kamptee-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Kamptee Road",
+                    "propYearWisePrice": {
+                        "1": 3500.0,
+                        "3": 2450.0
+                    }
+                },
+                {
+                    "id": "7259_LOCALITY",
+                    "localityName": "Hingna Road",
+                    "localityId": "7259_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "5.7% YoY",
+                    "pricePerSqFt": "₹2,800/ sq.ft",
+                    "rating": 4.1,
+                    "longLat": {
+                        "x": 79.03707,
+                        "y": 21.12288,
+                        "type": "Point",
+                        "coordinates": [
+                            79.03707,
+                            21.12288
+                        ]
+                    },
+                    "apiLocationId": "1038542",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7259",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7259_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/hingna-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Hingna Road",
+                    "propYearWisePrice": {
+                        "1": 2800.0,
+                        "3": 2100.0
+                    }
+                },
+                {
+                    "id": "20953_LOCALITY",
+                    "localityName": "Wanadongri",
+                    "localityId": "20953_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "5.7% YoY",
+                    "pricePerSqFt": "₹2,800/ sq.ft",
+                    "rating": 3.6,
+                    "longLat": {
+                        "x": 78.97645039096479,
+                        "y": 21.091855556745262,
+                        "type": "Point",
+                        "coordinates": [
+                            78.97645039096479,
+                            21.091855556745262
+                        ]
+                    },
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "20953",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "20953_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/wanadongri-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Wanadongri",
+                    "propYearWisePrice": {
+                        "1": 2800.0,
+                        "3": 2200.0
+                    }
+                },
+                {
+                    "id": "7279_LOCALITY",
+                    "localityName": "Jaitala Road ",
+                    "localityId": "7279_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹4,450/ sq.ft",
+                    "rating": 3.8,
+                    "longLat": {
+                        "x": 79.03936,
+                        "y": 21.12008,
+                        "type": "Point",
+                        "coordinates": [
+                            79.03936,
+                            21.12008
+                        ]
+                    },
+                    "apiLocationId": "1038504",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7279",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7279_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/jaitala-road-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Jaitala Road ",
+                    "propYearWisePrice": {
+                        "1": 4450.0
+                    }
+                },
+                {
+                    "id": "7282_LOCALITY",
+                    "localityName": "Bhilgaon",
+                    "localityId": "7282_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹3,050/ sq.ft",
+                    "rating": 3.7,
+                    "longLat": {
+                        "x": 79.14639,
+                        "y": 21.18705,
+                        "type": "Point",
+                        "coordinates": [
+                            79.14639,
+                            21.18705
+                        ]
+                    },
+                    "apiLocationId": "1038658",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7282",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7282_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/bhilgaon-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Bhilgaon",
+                    "propYearWisePrice": {
+                        "1": 3050.0,
+                        "3": 3000.0
+                    }
+                },
+                {
+                    "id": "35677_LOCALITY",
+                    "localityName": "Shankarpur",
+                    "localityId": "35677_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "130.0% YoY",
+                    "pricePerSqFt": "₹3,450/ sq.ft",
+                    "longLat": {
+                        "x": 79.076956,
+                        "y": 21.055081,
+                        "type": "Point",
+                        "coordinates": [
+                            79.076956,
+                            21.055081
+                        ]
+                    },
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "35677",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "35677_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/shankarpur-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Shankarpur",
+                    "propYearWisePrice": {
+                        "3": 3450.0
+                    }
+                },
+                {
+                    "id": "7248_LOCALITY",
+                    "localityName": "Pipla",
+                    "localityId": "7248_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "59.1% YoY",
+                    "pricePerSqFt": "₹3,500/ sq.ft",
+                    "longLat": {
+                        "x": 79.12028,
+                        "y": 21.0802,
+                        "type": "Point",
+                        "coordinates": [
+                            79.12028,
+                            21.0802
+                        ]
+                    },
+                    "apiLocationId": "1129591",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7248",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7248_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/pipla-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Pipla",
+                    "propYearWisePrice": {
+                        "1": 4000.0,
+                        "3": 3500.0
+                    }
+                },
+                {
+                    "id": "35923_LOCALITY",
+                    "localityName": "KT Nagar",
+                    "localityId": "35923_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹4,700/ sq.ft",
+                    "rating": 4.1,
+                    "longLat": {
+                        "x": 79.046488,
+                        "y": 21.175479,
+                        "type": "Point",
+                        "coordinates": [
+                            79.046488,
+                            21.175479
+                        ]
+                    },
+                    "apiLocationId": "1038429",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "35923",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "35923_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/kt-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "KT Nagar",
+                    "propYearWisePrice": {
+                        "1": 4700.0
+                    }
+                },
+                {
+                    "id": "9596_LOCALITY",
+                    "localityName": "Hazari Pahad ",
+                    "localityId": "9596_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹3,600/ sq.ft",
+                    "longLat": {
+                        "x": 79.03559105688748,
+                        "y": 21.168162271132697,
+                        "type": "Point",
+                        "coordinates": [
+                            79.03559105688748,
+                            21.168162271132697
+                        ]
+                    },
+                    "apiLocationId": "1042852",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "9596",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "9596_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/hazari-pahad-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Hazari Pahad ",
+                    "propYearWisePrice": {
+                        "1": 3600.0
+                    }
+                }
+            ]
+        },
+        {
+            "identifier": "LUXURY_SEGMENT",
+            "colorCode": "#F1CB9B",
+            "title": "Premium",
+            "tuples": [
+                {
+                    "id": "7251_LOCALITY",
+                    "localityName": "Dharampeth",
+                    "localityId": "7251_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "46.3% YoY",
+                    "pricePerSqFt": "₹9,800/ sq.ft",
+                    "rating": 4.4,
+                    "longLat": {
+                        "x": 79.06309,
+                        "y": 21.139,
+                        "type": "Point",
+                        "coordinates": [
+                            79.06309,
+                            21.139
+                        ]
+                    },
+                    "apiLocationId": "1119430",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7251",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7251_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/dharampeth-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Dharampeth",
+                    "propYearWisePrice": {
+                        "1": 9800.0
+                    }
+                },
+                {
+                    "id": "9604_LOCALITY",
+                    "localityName": "Omkar Nagar ",
+                    "localityId": "9604_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "36.6% YoY",
+                    "pricePerSqFt": "₹4,850/ sq.ft",
+                    "rating": 4.2,
+                    "longLat": {
+                        "x": 79.09329440646331,
+                        "y": 21.097944153874785,
+                        "type": "Point",
+                        "coordinates": [
+                            79.09329440646331,
+                            21.097944153874785
+                        ]
+                    },
+                    "apiLocationId": "1038622",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "9604",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "9604_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/omkar-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Omkar Nagar ",
+                    "propYearWisePrice": {
+                        "1": 4850.0
+                    }
+                },
+                {
+                    "id": "7280_LOCALITY",
+                    "localityName": "Khamla",
+                    "localityId": "7280_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "31.8% YoY",
+                    "pricePerSqFt": "₹7,050/ sq.ft",
+                    "rating": 4.0,
+                    "longLat": {
+                        "x": 79.06027,
+                        "y": 21.1094,
+                        "type": "Point",
+                        "coordinates": [
+                            79.06027,
+                            21.1094
+                        ]
+                    },
+                    "apiLocationId": "1038682",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7280",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7280_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/khamla-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Khamla",
+                    "propYearWisePrice": {
+                        "1": 7050.0
+                    }
+                },
+                {
+                    "id": "7270_LOCALITY",
+                    "localityName": "Swawlambi Nagar ",
+                    "localityId": "7270_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "27.8% YoY",
+                    "pricePerSqFt": "₹6,200/ sq.ft",
+                    "rating": 3.8,
+                    "longLat": {
+                        "x": 79.04261,
+                        "y": 21.10605,
+                        "type": "Point",
+                        "coordinates": [
+                            79.04261,
+                            21.10605
+                        ]
+                    },
+                    "apiLocationId": "1038669",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7270",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7270_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/swawlambi-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Swawlambi Nagar ",
+                    "propYearWisePrice": {
+                        "1": 6200.0,
+                        "3": 6400.0
+                    }
+                },
+                {
+                    "id": "17460_LOCALITY",
+                    "localityName": "Ganeshpeth Colony",
+                    "localityId": "17460_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "26.7% YoY",
+                    "pricePerSqFt": "₹7,600/ sq.ft",
+                    "rating": 4.0,
+                    "longLat": {
+                        "x": 79.096828,
+                        "y": 21.141429,
+                        "type": "Point",
+                        "coordinates": [
+                            79.096828,
+                            21.141429
+                        ]
+                    },
+                    "apiLocationId": "1040928",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "17460",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "17460_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/ganeshpeth-colony-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Ganeshpeth Colony",
+                    "propYearWisePrice": {
+                        "1": 7600.0
+                    }
+                },
+                {
+                    "id": "7267_LOCALITY",
+                    "localityName": "Pratap Nagar",
+                    "localityId": "7267_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "25.2% YoY",
+                    "pricePerSqFt": "₹6,700/ sq.ft",
+                    "rating": 4.3,
+                    "longLat": {
+                        "x": 79.05038,
+                        "y": 21.11611,
+                        "type": "Point",
+                        "coordinates": [
+                            79.05038,
+                            21.11611
+                        ]
+                    },
+                    "apiLocationId": "1038537",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7267",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7267_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/pratap-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Pratap Nagar",
+                    "propYearWisePrice": {
+                        "1": 6700.0,
+                        "3": 14050.0
+                    }
+                },
+                {
+                    "id": "7276_LOCALITY",
+                    "localityName": "Trimurti Nagar",
+                    "localityId": "7276_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "25.0% YoY",
+                    "pricePerSqFt": "₹5,500/ sq.ft",
+                    "rating": 4.2,
+                    "longLat": {
+                        "x": 79.04332,
+                        "y": 21.11124,
+                        "type": "Point",
+                        "coordinates": [
+                            79.04332,
+                            21.11124
+                        ]
+                    },
+                    "apiLocationId": "1038553",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7276",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7276_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/trimurti-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Trimurti Nagar",
+                    "propYearWisePrice": {
+                        "1": 5500.0,
+                        "3": 7400.0
+                    }
+                },
+                {
+                    "id": "7250_LOCALITY",
+                    "localityName": "Laxminagar",
+                    "localityId": "7250_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "24.3% YoY",
+                    "pricePerSqFt": "₹8,700/ sq.ft",
+                    "rating": 4.2,
+                    "longLat": {
+                        "x": 79.06092,
+                        "y": 21.12342,
+                        "type": "Point",
+                        "coordinates": [
+                            79.06092,
+                            21.12342
+                        ]
+                    },
+                    "apiLocationId": "1038431",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7250",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7250_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/laxminagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Laxminagar",
+                    "propYearWisePrice": {
+                        "1": 8700.0
+                    }
+                },
+                {
+                    "id": "11071_LOCALITY",
+                    "localityName": "Jaiprakash Nagar",
+                    "localityId": "11071_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "23.3% YoY",
+                    "pricePerSqFt": "₹6,350/ sq.ft",
+                    "rating": 3.9,
+                    "longLat": {
+                        "x": 79.065163,
+                        "y": 21.102078,
+                        "type": "Point",
+                        "coordinates": [
+                            79.065163,
+                            21.102078
+                        ]
+                    },
+                    "apiLocationId": "1038561",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "11071",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "11071_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/jaiprakash-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Jaiprakash Nagar",
+                    "propYearWisePrice": {
+                        "1": 6350.0
+                    }
+                },
+                {
+                    "id": "7252_LOCALITY",
+                    "localityName": "Narendra Nagar",
+                    "localityId": "7252_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "appreciation": "19.8% YoY",
+                    "pricePerSqFt": "₹5,150/ sq.ft",
+                    "rating": 4.1,
+                    "longLat": {
+                        "x": 79.07722,
+                        "y": 21.10462,
+                        "type": "Point",
+                        "coordinates": [
+                            79.07722,
+                            21.10462
+                        ]
+                    },
+                    "apiLocationId": "1038563",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7252",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7252_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/narendra-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Narendra Nagar",
+                    "propYearWisePrice": {
+                        "1": 5150.0,
+                        "3": 10300.0
+                    }
+                },
+                {
+                    "id": "28753_LOCALITY",
+                    "localityName": "Abhyankar Nagar",
+                    "localityId": "28753_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹8,550/ sq.ft",
+                    "rating": 4.0,
+                    "longLat": {
+                        "x": 79.056756,
+                        "y": 21.126138,
+                        "type": "Point",
+                        "coordinates": [
+                            79.056756,
+                            21.126138
+                        ]
+                    },
+                    "apiLocationId": "1038535",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "28753",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "28753_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/abhyankar-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Abhyankar Nagar",
+                    "propYearWisePrice": {
+                        "1": 8550.0
+                    }
+                },
+                {
+                    "id": "7275_LOCALITY",
+                    "localityName": "Shivaji Nagar",
+                    "localityId": "7275_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹10,000/ sq.ft",
+                    "longLat": {
+                        "x": 79.05674,
+                        "y": 21.13638,
+                        "type": "Point",
+                        "coordinates": [
+                            79.05674,
+                            21.13638
+                        ]
+                    },
+                    "apiLocationId": "1038543",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7275",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7275_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/shivaji-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Shivaji Nagar",
+                    "propYearWisePrice": {
+                        "1": 10000.0
+                    }
+                },
+                {
+                    "id": "7246_LOCALITY",
+                    "localityName": "Ramdas Peth",
+                    "localityId": "7246_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹9,150/ sq.ft",
+                    "rating": 4.3,
+                    "longLat": {
+                        "x": 79.07439,
+                        "y": 21.13679,
+                        "type": "Point",
+                        "coordinates": [
+                            79.07439,
+                            21.13679
+                        ]
+                    },
+                    "apiLocationId": "1038548",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "7246",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "7246_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/ramdas-peth-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Ramdas Peth",
+                    "propYearWisePrice": {
+                        "1": 9150.0
+                    }
+                },
+                {
+                    "id": "26005_LOCALITY",
+                    "localityName": "Chatrapati Nagar",
+                    "localityId": "26005_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹6,750/ sq.ft",
+                    "longLat": {
+                        "x": 79.072377,
+                        "y": 21.108083,
+                        "type": "Point",
+                        "coordinates": [
+                            79.072377,
+                            21.108083
+                        ]
+                    },
+                    "apiLocationId": "1038564",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "26005",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "26005_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/chatrapati-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Chatrapati Nagar",
+                    "propYearWisePrice": {
+                        "1": 6750.0
+                    }
+                },
+                {
+                    "id": "9590_LOCALITY",
+                    "localityName": "Ram Nagar",
+                    "localityId": "9590_LOCALITY",
+                    "imgUrl": "https://static.99acres.com/images/locationREI/defaultLocality.png",
+                    "pricePerSqFt": "₹8,000/ sq.ft",
+                    "rating": 4.2,
+                    "longLat": {
+                        "x": 79.05179,
+                        "y": 21.14415,
+                        "type": "Point",
+                        "coordinates": [
+                            79.05179,
+                            21.14415
+                        ]
+                    },
+                    "apiLocationId": "1038634",
+                    "srpCriteria": {
+                        "city": "150",
+                        "preference": "S",
+                        "locality_array": "9590",
+                        "res_com": "R",
+                        "src": "LOCALITIES_TUPLE"
+                    },
+                    "localityPageCriteria": {
+                        "locationId": "9590_LOCALITY",
+                        "entityType": "LOCALITY",
+                        "preference": "RESALE",
+                        "url": "/ram-nagar-nagpur-real-estate-insights-piffid"
+                    },
+                    "label": "Ram Nagar",
+                    "propYearWisePrice": {
+                        "1": 8000.0,
+                        "3": 9800.0
+                    }
+                }
+            ]
+        }
+    ]
+}
