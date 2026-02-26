@@ -200,7 +200,7 @@ if elapsed > REFRESH_INTERVAL:
 
 @st.cache_data(ttl=3600, show_spinner="Loading data…")
 def load_data():
-    return pd.read_csv("nagpur_cleaned_dataset.csv")
+    return pd.read_csv("nagpur_final_cleaned.csv")
 
 df = load_data()
 
@@ -688,16 +688,20 @@ with col_pred2:
                 "predicted_growth_next_year": "Predicted Next Year %"},
     )
     # Manual trendline using numpy (no statsmodels needed)
-    _x = df_filtered["growth_1y"].fillna(0).values
-    _y = df_filtered["predicted_growth_next_year"].fillna(0).values
-    _m, _b = np.polyfit(_x, _y, 1)
-    _x_line = np.linspace(_x.min(), _x.max(), 100)
-    fig_av.add_trace(go.Scatter(
-        x=_x_line, y=_m * _x_line + _b,
-        mode="lines", name="Trend",
-        line=dict(color="rgba(255,214,10,0.7)", width=2, dash="dot"),
-        showlegend=True
-    ))
+    try:
+        _x = df_filtered["growth_1y"].fillna(0).values
+        _y = df_filtered["predicted_growth_next_year"].fillna(0).values
+        if len(_x) >= 2 and np.std(_x) > 0:
+            _m, _b = np.polyfit(_x, _y, 1)
+            _x_line = np.linspace(_x.min(), _x.max(), 100)
+            fig_av.add_trace(go.Scatter(
+                x=_x_line, y=_m * _x_line + _b,
+                mode="lines", name="Trend",
+                line=dict(color="rgba(255,214,10,0.7)", width=2, dash="dot"),
+                showlegend=True
+            ))
+    except (np.linalg.LinAlgError, ValueError):
+        pass  # skip trendline if data has no variance or too few points
     fig_av.update_layout(**{**PLOTLY_LAYOUT, "height": 360})
     st.markdown('<div class="plotly-container">', unsafe_allow_html=True)
     st.plotly_chart(fig_av, use_container_width=True)
