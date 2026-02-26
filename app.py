@@ -200,7 +200,7 @@ if elapsed > REFRESH_INTERVAL:
 
 @st.cache_data(ttl=3600, show_spinner="Loading data…")
 def load_data():
-    return pd.read_csv("nagpur_final_cleaned.csv")
+    return pd.read_csv("nagpur_cleaned_dataset.csv")
 
 df = load_data()
 
